@@ -69,8 +69,8 @@
   justify-content: center;
   list-style: none;
   border-bottom: 1px solid var(--border-color);
-  margin-bottom: 25px;
-  padding-bottom: 25px;
+  margin: 20px 0;
+  padding-bottom: 20px;
 }
 
 #social-container li {
