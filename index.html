@@ -41,9 +41,27 @@
             <p id="welcome-text">Welcome!</p>
             <hr />
             <ul id="social-container">
-        <li><a href="https://www.facebook.com/doncesar.carvalho" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
-        <li><a href="https://www.linkedin.com/in/c%C3%A9sar-henrique-carvalho-b59722a3/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-        <li><a href="https://www.instagram.com/cesar.h.carvalho/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+               <li>
+                  <a
+                     href="https://www.facebook.com/doncesar.carvalho"
+                     target="_blank"
+                     ><ion-icon name="logo-facebook"></ion-icon
+                  ></a>
+               </li>
+               <li>
+                  <a
+                     href="https://www.linkedin.com/in/c%C3%A9sar-henrique-carvalho-b59722a3/"
+                     target="_blank"
+                     ><ion-icon name="logo-linkedin"></ion-icon
+                  ></a>
+               </li>
+               <li>
+                  <a
+                     href="https://www.instagram.com/cesar.h.carvalho/"
+                     target="_blank"
+                     ><ion-icon name="logo-instagram"></ion-icon
+                  ></a>
+               </li>
             </ul>
             <div id="email-container">
                <ion-icon name="mail-outline"></ion-icon
@@ -91,6 +109,22 @@
                   <i class="devicon-react-plain colored"></i>
                </div>
             </div>
+            <p>Choose the page language</p>
+            <div id="google_translate_element"></div>
+
+            <script type="text/javascript">
+               function googleTranslateElementInit() {
+                  new google.translate.TranslateElement(
+                     { pageLanguage: 'en' },
+                     'google_translate_element'
+                  )
+               }
+            </script>
+
+            <script
+               type="text/javascript"
+               src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+            ></script>
          </section>
       </main>
 
